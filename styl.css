@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+.heading{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+.navbar{list-style-type: none;
+    background-color:#6A1B9A;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-radius:13px ;
+    font-family: 'Indie Flower', cursive;
+
+}
+.form-inline{
+    float: right;
+}
+.navbar li{
+    float: right;
+}
+.navbar li a:hover:not(.heading){
+    background-color: #4A148C;
+}
+
+.navbar li a {
+    font-size: 20px;
+    color: #E1BEE7;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2018/01/11/19/02/architecture-3076685__480.jpg");
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+.inpic{ opacity:0.85;
+    width: 40%;
+    height: 20em;
+    border-radius: 40%;
+
+}
+.intxt{
+
+    text-align: center;
+    font-size: 2em;
+    line-height: 2em;
+    color: white;
+    border-radius:10px ;
+    font-weight: bold ;
+    font-style: italic;
+    float: right;
+    width: 50%;
+
+
+
+}
+#ind{
+    margin: 2%;
+
+}
+
+
+.ukpic{ opacity:0.85;
+    width: 40%;
+    height: 20em;
+    border-radius: 40%;
+    float: right;
+
+}
+.uktxt{
+
+    text-align: center;
+    font-size: 2em;
+    line-height: 2em;
+    color: white;
+    border-radius:10px ;
+    font-weight: bold ;
+    font-style: italic;
+    float: left;
+    width: 50%;
+
+
+}
+#uk{
+    margin:2%;
+
+
+}
+.usapic{ opacity:0.85;
+    width: 40%;
+    height: 20em;
+    border-radius: 40%;
+
+
+}
+.usatxt{
+
+    text-align: center;
+    font-size: 2em;
+    line-height: 2em;
+    color: white;
+    border-radius:10px ;
+    font-weight: bold ;
+    font-style: italic;
+    float: right;
+    width: 50%;
+
+
+}
+#usa{
+    margin:2%;
+
+
+}
